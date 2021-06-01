@@ -34,6 +34,6 @@ jobs:
       
     - name: Deploy App 
       run: |
-        git remote set-url origin https://gavelino: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@github.com/gavelino/ci_actions2/
-        git remote -v 
+        git remote set-url origin https://gavelino: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@github.com/gavelino/ci_actions2/
+        git remote set-url -v 
         yarn deploy
