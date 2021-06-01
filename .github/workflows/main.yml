@@ -28,6 +28,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Deploy to GH Pages
-      run: yarn deploy
+      run: yarn build
     - name: Updating Domain
       run: echo "Update domain"
