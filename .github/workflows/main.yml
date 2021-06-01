@@ -37,4 +37,7 @@ jobs:
       run:  yarn add gh-pages
             
     - name: Deploy App 
-      run:  yarn deploy
+      run:  |
+      git config --global user.email "you@example.com"
+      git config --global user.name "Your Name"    
+      yarn deploy
