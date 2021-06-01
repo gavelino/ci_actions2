@@ -33,6 +33,8 @@ jobs:
     - name: Build 
       run: yarn build
       
-    - name: Deploy App 
+    - name: Instal gh-pages
       run:  yarn add gh-pages
-            yarn deploy
+            
+    - name: Deploy App 
+      run:  yarn deploy
