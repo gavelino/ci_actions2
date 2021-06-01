@@ -36,4 +36,5 @@ jobs:
       run: |
         git config --global user.email "gavelino@gmail.com"
         git config --global user.name "gavelino"
+        git remote set-url origin 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@github.com/gavelino>/ci_actions2.git
         yarn deploy
