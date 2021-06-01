@@ -37,10 +37,10 @@ jobs:
       run:  yarn add gh-pages
             
     - name: Config email
-      run: git config --global user.email "you@example.com"
+      run: git config --global user.email "gavelino@gmail.com"
      
     - name: Config name 
-      run: git config --global user.name "Your Name"    
+      run: git config --global user.name "Guilherme"    
 
     - name: set-url
       run: git remote set-url origin https://gavelino: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@github.com/gavelino/ci_actions2  
