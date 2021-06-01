@@ -31,5 +31,9 @@ jobs:
       run: yarn install
     - name: Build 
       run: yarn build
-    - name: Updating Domain
-      run: echo "Update domain"
+      
+    - name: Deploy App 
+      run: |
+        git config --global user.email "gavelino@gmail.com"
+        git config --global user.name "gavelino"
+        yarn deploy
