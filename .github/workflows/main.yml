@@ -29,8 +29,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Install Packages
       run: yarn install
+      
     - name: Build 
       run: yarn build
       
     - name: Deploy App 
-      run: yarn deploy
+      run:  yarn add gh-pages
+            yarn deploy
