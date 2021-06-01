@@ -39,7 +39,7 @@ jobs:
     - name: Config email
       run: git config --global user.email "gavelino@gmail.com"
      
-    - name: Config name 
+    - name: Config NAme 
       run: git config --global user.name "Guilherme"    
 
          
