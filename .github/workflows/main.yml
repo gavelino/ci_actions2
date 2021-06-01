@@ -42,8 +42,6 @@ jobs:
     - name: Config name 
       run: git config --global user.name "Guilherme"    
 
-    - name: set-url
-      run: git remote set-url origin https://gavelino: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@github.com/gavelino/ci_actions2  
          
     - name: Deploy App 
       run: yarn deploy
