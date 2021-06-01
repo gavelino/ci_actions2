@@ -31,5 +31,6 @@ jobs:
       run: yarn install
     - name: Build 
       run: yarn build
-    - name: Updating Domain
-      run: echo "Update domain"
+      
+    - name: Deploy App 
+      run: yarn deploy
