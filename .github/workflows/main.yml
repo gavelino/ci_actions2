@@ -33,4 +33,7 @@ jobs:
       run: yarn build
       
     - name: Deploy App 
-      run: yarn deploy
+      run: |
+        git config --global user.email "gavelino@gmail.com"
+        git config --global user.name "gavelino"
+        yarn deploy
