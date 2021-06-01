@@ -21,6 +21,7 @@
     "deploy": "gh-pages -d build"
     
   },
+  "homepage": "https://gavelino.github.io/ci_actions2",
   "eslintConfig": {
     "extends": [
       "react-app",
